@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npx husky install",
     "start": "node index.js",
     "commit": "cz",
     "test": "echo \"Error: no test specified\" && exit 1"
